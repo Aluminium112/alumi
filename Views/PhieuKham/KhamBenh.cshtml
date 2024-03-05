@@ -1,0 +1,69 @@
+﻿@model List<Hospital.Models.ToaThuocChiTiet>
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Kham Benh";
+}
+
+<h3>Toa Thuoc</h3>
+<hr />
+<form asp-action="KhamBenh" target="_parent">
+    <div class="form-group">
+        <label class="control-label">Toa thuoc: @ViewBag.ToaThuoc.Id</label>
+        <input type="hidden" name="idToaThuoc" value="@ViewBag.ToaThuoc.Id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Chẩn đoán: </label> 
+        <input name="chanDoan" class="form-control" />
+    </div>
+<table class="table">
+    <thead>
+        <tr>            
+            <th>
+                    Thuoc
+            </th>
+            <th>
+                    So Luong
+            </th>
+            <th>
+                    Sang
+            </th>
+            <th>
+                    Trua
+            </th>
+            <th>
+                    Chieu
+            </th>
+            <th>
+                    Cach Dung
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < 5; i++){
+            <tr>
+                <td>
+                        <select asp-for="@Model[i].IdThuoc" class="form-control" asp-items="ViewBag.IdThuoc"></select>
+                </td>
+                <td>
+                        <input asp-for="@Model[i].SoLuong" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Sang" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Trua" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Chieu" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].CachDung" class="form-control" />
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>
+    <input type="submit" value="Đã Khám Xong" class="btn btn-primary" />
+</form>

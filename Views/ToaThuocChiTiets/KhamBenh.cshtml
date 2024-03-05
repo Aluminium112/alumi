@@ -1,0 +1,65 @@
+﻿@model List<Hospital.Models.ToaThuocChiTiet>
+
+@{
+    ViewData["Title"] = "Kham Benh";
+}
+
+<h1>Khám Bệnh</h1>
+
+<h4>Toa Thuoc</h4>
+<hr />
+<form asp-action="KhamBenh">
+    <div class="form-group">
+        <label class="control-label">Toa thuoc:</label>
+        <select name="IdToaThuoc" class="form-control" asp-items="ViewBag.IdToaThuoc"></select>
+    </div>
+<table class="table">
+    <thead>
+        <tr>            
+            <th>
+                    Thuoc
+            </th>
+            <th>
+                    So Luong
+            </th>
+            <th>
+                    Sang
+            </th>
+            <th>
+                    Trua
+            </th>
+            <th>
+                    Chieu
+            </th>
+            <th>
+                    Cach Dung
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < 5; i++){
+            <tr>
+                <td>
+                        <select asp-for="@Model[i].IdThuoc" class="form-control" asp-items="ViewBag.IdThuoc"></select>
+                </td>
+                <td>
+                        <input asp-for="@Model[i].SoLuong" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Sang" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Trua" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].Chieu" class="form-control" />
+                </td>
+                <td>
+                        <input asp-for="@Model[i].CachDung" class="form-control" />
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>
+    <input type="submit" value="Create" class="btn btn-primary" />
+</form>

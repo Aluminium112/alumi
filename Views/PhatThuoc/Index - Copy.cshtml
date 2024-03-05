@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Hospital.Models.ToaThuoc>
+
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Contact Form 02</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="~/css/style.css">
+	<style>
+		.Form {
+			background-color: #CCCCCC;
+			.Title
+
+		{
+			color: black;
+		}
+
+		}
+
+		h5:hover {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<section class="ftco-section">
+		<div class="container" style="width:100%;">
+			<div class="row justify-content-center">
+			</div>
+
+			<div class="row justify-content-center">
+
+				<div class="Form info-wrap  p-2 w-100 p-md-5 ">
+					<h3 class="Title">Danh sách bệnh nhân</h3>
+
+					<div class="dbox w-100 d-flex align-items-start">
+					</div>
+
+					@foreach (var item in Model)
+
+					{
+						<div class="dbox w-100 d-flex align-items-center">
+							<h5 class="Ten-BN">
+								@Html.ActionLink(item.IdBenhNhanNavigation.Ho + " " +item.IdBenhNhanNavigation.Ten,
+							"PhatThuocDetail", new { id = item.Id },
+							new {@style="color:#101010; "})
+							</h5>
+						</div>
+					}
+
+					<div class="dbox w-100 d-flex align-items-center">
+					</div>
+					<div class="dbox w-100 d-flex align-items-center">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	@* 	@foreach (var item in Model)
+	{
+	<div class="dbox w-100 d-flex align-items-center">
+	@Html.DisplayFor(modelItem => item.IdBenhNhanNavigation.Ho)
+	@Html.DisplayFor(modelItem => item.IdBenhNhanNavigation.Ten)
+	<a href="@Url.Action("BenhNhanDetail", "PhieuKham", new { id = item.Id })" class="btn btn-primary">Xem</a>
+	</div>
+	} *@
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+﻿@model Hospital.Models.ToaThuoc
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Phiếu khám bệnh</h1>
+
+
+<h4>Tên Bác Sĩ: @Model.IdBacSiNavigation.Ho @Model.IdBacSiNavigation.Ten</h4>
+
+				<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+					<div class="contact-wrap w-100 p-md-5 p-4">
+							
+						@* form *@
+						<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="name">Họ tên</label>
+										<h4>@Model.IdBenhNhanNavigation.Ho @Model.IdBenhNhanNavigation.Ten</h4>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="email">Id Bệnh Nhân</label>
+										<h4>@Model.IdBenhNhanNavigation.Id</h4>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="email">Ngày Sinh</label>
+										<h4>@Model.IdBenhNhanNavigation.NgaySinh</h4>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="subject">Chẩn đoán</label>
+										<h4 class="ChanDoan">@Model.ChanDoan <br /></h4>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="subject">Trình trạng</label>
+										<h4 class="TinhTrang">@Model.TinhTrang <br /></h4>
+									</div>
+								</div>
+								<div class="col-md-12">
+					<label for="thuocs">Chọn thuốc: </label>
+					
+					@* <select asp-for="id" class="form-control" asp-items="ViewBag.id"></select> *@
+								</div>
+						<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="subject">Số lượng</label>
+										<input type="text" class="form-control" name="subject" id="soluong-thuoc" placeholder="Nhập số lượng thuốc">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="#">Lưu ý</label>
+										<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Lưu" class="btn btn-primary">
+										<div class="submitting"></div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>

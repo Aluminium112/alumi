@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hospital
+build_property.RootNamespace = Hospital
+build_property.ProjectDir = D:\Download\Hospital\Hospital\Hospital\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Download\Hospital\Hospital\Hospital
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Download/Hospital/Hospital/Hospital/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/SearchByCMND.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXFNlYXJjaEJ5Q01ORC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/BenhNhans/TransferToDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuaE5oYW5zXFRyYW5zZmVyVG9Eb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/NhanViens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/NhanViens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/NhanViens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/NhanViens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/NhanViens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhatThuoc/Index - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhdFRodW9jXEluZGV4IC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhatThuoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhdFRodW9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhatThuoc/PhatThuocDetail - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhdFRodW9jXFBoYXRUaHVvY0RldGFpbCAtIENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhatThuoc/PhatThuocDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhdFRodW9jXFBoYXRUaHVvY0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhieuKham/BenhNhanDetail - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVLaGFtXEJlbmhOaGFuRGV0YWlsIC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhieuKham/BenhNhanDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVLaGFtXEJlbmhOaGFuRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhieuKham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVLaGFtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/PhieuKham/KhamBenh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVLaGFtXEtoYW1CZW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocChiTiets/KhamBenh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NDaGlUaWV0c1xLaGFtQmVuaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/ToaThuocs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hVGh1b2NzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Download/Hospital/Hospital/Hospital/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j6i1r8qj4i

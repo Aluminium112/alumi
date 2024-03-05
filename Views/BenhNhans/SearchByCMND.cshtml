@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Hospital.Models.BenhNhan>
+<a class="nav-link text-blue" asp-area="" asp-controller="Home" asp-action="Privacy">Quay lại trang Dịch vụ</a>
+<h2>Kết quả tìm kiếm</h2>
+<table class="table">
+    <tbody>
+        @foreach (var benhNhan in Model)
+        {
+            <tr>
+                <td>
+                    @* <form method="post" action="AddForm">
+                        <input type="hidden" name="BenhNhanId" value="@benhNhan.Id" />
+                        <button type="submit" class="btn btn-primary">Phiếu khám bệnh mới</button>
+                    </form> *@
+                    <a class="nav-link text-blue" asp-area="" asp-controller="BenhNhans" asp-action="TransferToDoctor" asp-route-id="@benhNhan.Id">Thêm PKB</a>
+                </td>
+                <td>@benhNhan.Ho</td>
+                <td>@benhNhan.Ten</td>
+                <td>@benhNhan.Cmnd</td>
+                <td>@benhNhan.NgaySinh</td>
+                <td>@benhNhan.GioiTinh</td>
+                <td>@benhNhan.DiaChi</td>
+                <td>@benhNhan.Email</td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,101 @@
+﻿@model Hospital.Models.ToaThuoc
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+@* <div>
+    <h4>Tên Bệnh Nhân: @Model.IdBenhNhanNavigation.Ho @Model.IdBenhNhanNavigation.Ten</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">   
+            Tên Thuốc
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DropDownList("IdThuoc", new SelectList(ViewBag.ThuocList, "Id", "Ten"), "Chọn thuốc", new { @class = "form-control" })
+        </dd>
+        <dt class="col-sm-2">
+            Số Lượng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="number" name="SoLuong" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Sáng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Sang" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Trưa
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Trua" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Chiều
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Chieu" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Cách Dùng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="CachDung" class="form-control" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+ *@
+<div>
+    <h4>Tên Bệnh Nhân: @Model.IdBenhNhanNavigation.Ho @Model.IdBenhNhanNavigation.Ten</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Tên Thuốc
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DropDownList("IdThuoc", new SelectList(ViewBag.ThuocList, "Id", "Ten"), "Chọn thuốc", new { @class = "form-control" })
+        </dd>
+        <dt class="col-sm-2">
+            Số Lượng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="number" name="SoLuong" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Sáng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Sang" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Trưa
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Trua" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Chiều
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="Chieu" class="form-control" />
+        </dd>
+        <dt class="col-sm-2">
+            Cách Dùng
+        </dt>
+        <dd class="col-sm-10">
+            <input type="text" name="CachDung" class="form-control" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

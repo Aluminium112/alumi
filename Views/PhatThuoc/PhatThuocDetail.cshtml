@@ -1,0 +1,79 @@
+﻿@model List<Hospital.Models.ToaThuocChiTiet>
+@{
+	Layout = null;
+}
+<style>
+    table, td, th {
+        border: 1px solid;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+</style>
+@{
+	ViewData["Title"] = "Toa Thuốc";
+}
+
+<h1>Toa Thuốc</h1>
+
+<h4>Bệnh nhân: @ViewBag.toaThuoc.IdBenhNhanNavigation.Ho @ViewBag.toaThuoc.IdBenhNhanNavigation.Ten</h4>
+<h4>Chẩn đoán: @ViewBag.toaThuoc.ChanDoan</h4>
+<h4>Ngày: @ViewBag.toaThuoc.Ngay</h4>
+<h4>Bác Sĩ: @ViewBag.toaThuoc.IdBacSiNavigation.Ho @ViewBag.toaThuoc.IdBacSiNavigation.Ten</h4>
+<h4>Tình trạng: @ViewBag.toaThuoc.TinhTrang</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Thuoc
+            </th>
+            <th>
+                So Luong
+            </th>
+            <th>
+                Sang
+            </th>
+            <th>
+                Trua
+            </th>
+            <th>
+                Chieu
+            </th>
+            <th>
+                Cach Dung
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ttct in Model)
+        {
+            <tr>
+                <td>
+                    @ttct.IdThuocNavigation.Ten                 
+                </td>
+                <td>
+                    @ttct.SoLuong
+                </td>
+                <td>
+                    @ttct.Sang
+                </td>
+                <td>
+                    @ttct.Trua
+                </td>
+                <td>
+                    @ttct.Chieu
+                </td>
+                <td>
+                    @ttct.CachDung
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form asp-action="CapNhatTinhTrangToaThuoc" target="_parent">
+    <input type="hidden" name="idToaThuoc" value="@ViewBag.toaThuoc.Id" class="form-control" />
+    <input type="submit" value="Phát Thuốc Xong" class="btn btn-primary" />
+</form>

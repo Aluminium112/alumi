@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Dịch vụ";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>LỊCH KHÁM</p>
+<a class="nav-link text-blue" asp-area="" asp-controller="BenhNhans" asp-action="Index">Danh sách bệnh nhân</a>
+<form method="get" action="@Url.Action("SearchByCMND","BenhNhans")">
+    <input type="text" name="cmnd" />
+    <input type="submit" value="Tìm kiếm" />
+</form>
+<h2>Kết quả tìm kiếm</h2>
+
